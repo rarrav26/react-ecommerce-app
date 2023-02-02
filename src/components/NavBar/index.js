@@ -1,12 +1,14 @@
+import "./index.css";
 import React from "react";
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import CartWidget from "./CartWidget";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import CartWidget from "../CartWidget";
 
 const NavBar = () => {
-    return <Navbar bg="light" expand="lg">
+  return (
+    <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="#inicio">Viper shop</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -23,7 +25,8 @@ const NavBar = () => {
         </Navbar.Collapse>
         <CartWidget />
       </Container>
-    </Navbar>;
+    </Navbar>
+  );
 };
 
 export default NavBar;
