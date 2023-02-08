@@ -1,25 +1,26 @@
-import "./index.css";
+import "./NavBar.css";
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import CartWidget from "../CartWidget";
+import CartWidget from "../CartWidget/CartWidget";
 
 const NavBar = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#inicio">Viper shop</Navbar.Brand>
+        <Navbar.Brand href="/">Viper shop</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#inicio">Inicio</Nav.Link>
-            <Nav.Link href="#nosotros">Nosotros</Nav.Link>
-            <NavDropdown title="Productos" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#cpu">Procesadores</NavDropdown.Item>
-              <NavDropdown.Item href="#gpu">Placas de video</NavDropdown.Item>
-              <NavDropdown.Item href="#ram">Memorias RAM</NavDropdown.Item>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
+            <NavDropdown title="Products" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#cpu">Processors</NavDropdown.Item>
+              <NavDropdown.Item href="#gpu">Video cards</NavDropdown.Item>
+              <NavDropdown.Item href="#ram">RAM memories</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
