@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "categoryId": 1,
+    "name": "Procesador AMD Ryzen 5 4500",
+    "description": "Modelo 4500\nSocket AM4 APU 3th Gen\nNúcleos 6\nFrecuencia 3600.00 mhz\nHilos 12\nFamilia AMD RYZEN 5",
+    "price": 42000,
+    "stock": 7,
+    "imageUrl": "/images/Procesador_AMD_Ryzen_5_4500___Wraith_Stealth_Cooler_AM4_475b8356-grn.jpg"
+  },
+  {
+    "id": 2,
+    "categoryId": 1,
+    "name": "Procesador AMD Ryzen 3 3200G",
+    "description": "Modelo Ryzen 3 3200G\nSocket AM4 APU 2th Gen\nNúcleos 4\nFrecuencia 3600.00 mhz\nHilos 4\nFamilia AMD RYZEN 3",
+    "price": 35800,
+    "stock": 15,
+    "imageUrl": "./images/Procesador_AMD_RYZEN_3_3200G_4.0GHz_Turbo___Radeon_Vega_8_AM4_Wraith_Stealth_Cooler_f414a507-grn.jpg"
+  },
+  {
+    "id": 3,
+    "categoryId": 1,
+    "name": "Procesador Intel Core i7 10700F",
+    "description": "Modelo 10700F\nSocket 1200 Comet Lake\nNúcleos 8\nFrecuencia 2900.00 mhz\nHilos 16\nFamilia Intel Core i7",
+    "price": 90200,
+    "stock": 4,
+    "imageUrl": "./images/Procesador_Intel_Core_i7_10700F_4.8GHz_Turbo_Socket_1200_Comet_Lake_b7e5628e-grn.jpg"
+  },
+  {
+    "id": 4,
+    "categoryId": 2,
+    "name": "Placa de Video Zotac GeForce RTX 3080 Ti 12GB GDDR6X Trinity",
+    "description": "Velocidad Memoria 19000 mhz\nTipo De Memoria GDDR6X\nCapacidad De Memoria 12 gb\nInterface De Memoria 384 bits\nVelocidad Del Core Turbo 1665 mhz\nTipos De Procesos CUDA\nCantidad De Procesos 10240",
+    "price": 358500,
+    "stock": 4,
+    "imageUrl": "./images/Placa_de_Video_Zotac_GeForce_RTX_3080_Ti_12GB_GDDR6X_Trinity_e1cd5292-grn.jpg"
+  },
+  {
+    "id": 5,
+    "categoryId": 2,
+    "name": "Placa de Video GeForce MSI G210 1GB DDR3 Low Profile",
+    "description": "Velocidad Memoria 1000 mhz\nTipo De Memoria GDDR3\nCapacidad De Memoria 1 gb\nInterface De Memoria 64 bits\nVelocidad Del Core Turbo 589 mhz\nTipos De Procesos CUDA\nCantidad De Procesos 0",
+    "price": 13650,
+    "stock": 9,
+    "imageUrl": "./images/Placa_de_Video_GeForce_MSI_G210_1GB_DDR3_Low_Profile_c07b4910-grn.jpg"
+  },
+  {
+    "id": 6,
+    "categoryId": 2,
+    "name": "Placa de Video Asrock Radeon RX 6700 XT 12GB GDDR6 Challenger D OC",
+    "description": "Velocidad Memoria 16000 mhz\nTipo De Memoria GDDR6\nCapacidad De Memoria 12 gb\nInterface De Memoria 192 bits\nVelocidad Del Core Turbo 2615 mhz\nTipos De Procesos Stream\nCantidad De Procesos 2560",
+    "price": 174550,
+    "stock": 6,
+    "imageUrl": "./images/Placa_de_Video_Asrock_Radeon_RX_6700_XT_12GB_GDDR6_Challenger_49f30497-grn.jpg"
+  },
+  {
+    "id": 7,
+    "categoryId": 3,
+    "name": "Memoria Corsair DDR4 8GB 2666Mhz Value",
+    "description": "Capacidad 8 gb\nVelocidad 2666 mhz\nTipo DDR4\nCantidad De Memorias 1\nLatencia 17 cl\nVoltaje 1.20 v",
+    "price": 18880,
+    "stock": 12,
+    "imageUrl": "./images/Memoria_Corsair_DDR4_8GB_2666Mhz_Value__80163666-grn.jpg"
+  },
+  {
+    "id": 8,
+    "categoryId": 3,
+    "name": "Memoria GeiL DDR4 16GB (2x8GB) 3200MHz EVO X II RGB Black",
+    "description": "Capacidad 16 gb\nVelocidad 3200 mhz\nTipo DDR4\nCantidad De Memorias 2\nLatencia 16 cl\nVoltaje 1.35 v",
+    "price": 36750,
+    "stock": 5,
+    "imageUrl": "./images/Memoria_GeiL_DDR4_16GB__2x8GB__3200MHz_EVO_X_II_RGB_Black_07cbccd3-grn.jpg"
+  },
+  {
+    "id": 9,
+    "categoryId": 3,
+    "name": "Memoria Kingston DDR4 4GB 2666MHz KVR26N19S6/4",
+    "description": "Capacidad 4 gb\nVelocidad 2666 mhz\nTipo DDR4\nCantidad De Memorias 1\nLatencia 19 cl\nVoltaje 1.20 v ",
+    "price": 12200,
+    "stock": 10,
+    "imageUrl": "./images/Memoria_Kingston_DDR4_4GB_2666MHz_KVR26N19S6_4_6d585519-grn.jpg"
+  }
+]
